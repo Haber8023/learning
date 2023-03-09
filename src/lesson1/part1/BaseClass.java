@@ -12,6 +12,11 @@ public class BaseClass {
         char ch2 = 97; // a
         System.out.println(ch1 - ch2);
 
+        // 小写转大写
+        char bigB = 'A' - 'a' + 'b';
+        char bigCh1 = (char) ('A' - 'a' + ch1); // 使用变量要强制转换一下，不然返回的是ascii码的int值
+        System.out.println(bigCh1);
+
         boolean isRed = true;
 
         byte b = 1 << 2; // 100
