@@ -1,7 +1,6 @@
 package lesson1.part1;
 
 import lesson1.part2.Circle;
-import lesson1.part2.Shape;
 
 /**
  * 基本数据类型
