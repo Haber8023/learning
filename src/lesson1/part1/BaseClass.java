@@ -12,7 +12,9 @@ public class BaseClass {
         System.out.println(ch1 - ch2);
 
         // 小写转大写
-        char bigB = 'A' - 'a' + 'b';
+        char bigB =(char) ('A' - 'a' + 'b') ;
+        System.out.println(bigB);
+        System.out.println('A' - 'a' + ch1); // int
         char bigCh1 = (char) ('A' - 'a' + ch1); // 使用变量要强制转换一下，不然返回的是ascii码的int值
         System.out.println(bigCh1);
 

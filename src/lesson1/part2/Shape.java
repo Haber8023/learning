@@ -3,7 +3,7 @@ package lesson1.part2;
 /**
  * 形状
  */
-public abstract class Shape {
+abstract class Shape {
     // 成员变量
    private String color;
 
@@ -23,6 +23,7 @@ public abstract class Shape {
     }
 
     public static void main(String[] args) {
+        Circle circle = new Circle();
 //        Shape shape1 = new Shape();
 //        shape1.setColor("red");
 //        shape1.getInfo();
